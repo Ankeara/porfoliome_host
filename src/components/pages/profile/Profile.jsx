@@ -3,6 +3,7 @@ import Facebook from '../../../assets/logo_program/facebook.png';
 import Instagram from '../../../assets/logo_program/instagram.png';
 import Youtube from '../../../assets/logo_program/youtube.png';
 import X from '../../../assets/logo_program/twitter.png';
+import CV from '../../../assets/CV.pdf';
 import './profile.css';
 
 
@@ -21,7 +22,7 @@ const Profile = () => {
           <span className="home__skill">I'm a Frontend and Laravel Developer</span>
           <div className="btn__link">
             <a href="#" className="btn hire__me">Hire Me!</a>
-            <a href="#" className="btn dn__cv">Download CV</a>
+            <a href={CV} className="btn dn__cv">Download CV</a>
           </div>        
 
           <p className="dec">Specializing in strategy, improving design maturity & design systems.</p>  
