@@ -17,8 +17,36 @@ import Message__icon from '../../../assets/icons/message.png';
 import Contact__icon from '../../../assets/icons/message-alert.png';
 import Phone__icon from '../../../assets/icons/phone-call.png';
 import Location__icon from '../../../assets/icons/location-pin.png';
-
+import Swal from 'sweetalert2'
 const Contact = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "7ea3145f-5ed3-4f08-ba33-ee6a98f91a78");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Your message has been sent successfully!",
+        icon: "success"
+      });
+    }
+  };
+
     const [isSmallMenuVisible, setSmallMenuVisible] = useState(false); // Initialize state
   const [isMenuFixed, setIsMenuFixed] = useState(false);
 
@@ -111,26 +139,26 @@ const Contact = () => {
               <h3 className="form__title">Contact Us</h3>
               <div className="contact__container">
 
-                <form action="" className="contact__form">
+                <form className="contact__form" onSubmit={onSubmit}>
                   <div className="contact__form-group">
                     <div className="contact__form-div">
-                      <input type="text" className="contact__form-input" placeholder='Insert your name'/>
+                      <input type="text" className="contact__form-input" name='name' required placeholder='Insert your name'/>
                     </div>
 
                     <div className="contact__form-div">
-                      <input type="text" className="contact__form-input" placeholder='Insert your email'/>
+                      <input type="text" className="contact__form-input" name='email' required placeholder='Insert your email'/>
                     </div>
 
                   </div>
                     <div className="contact__form-div">
-                      <input type="text" className="contact__form-input" placeholder='Insert your subject'/>
+                      <input type="text" className="contact__form-input" name='subject' required placeholder='Insert your subject'/>
                     </div>
 
         <div className="contact__form-div contact__form-area">
-                      <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message'></textarea>
+                      <textarea id="" cols="30" rows="10" name="message" className='contact__form-input' required placeholder='Write your message'></textarea>
                     </div>    
 
-                    <button className='btn'>Send Messgae</button>
+                    <button className='btn' type='submit'>Send Messgae</button>
                 </form>
               </div>
             </div>
