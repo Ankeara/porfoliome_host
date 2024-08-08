@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  /* ========= colors ========= */
+  /* Colors mode HSL(hue, saturation, lightness */
+  --first-color: #695aa6;
+  --title-color: #fff;
+  --text-color: #8b9f9f;
+  --body-color: #191c1c;
+  --content-color: #222525;
+
+  /* ========= Font and typography ========= */
+  /* .5rem= 8px | 1rem = 16px */
+  --body-font: "Righteous", sans-serif;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  /* ========= Font weight =========*/
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* ========= Font Family =========*/
+  --font-family-Righteous: "Righteous", sans-serif;
+  --font-family-Roboto-Mono: "Roboto Mono", monospace;
+  --font-family-Roboto: "Roboto", sans-serif;
+  --font-family-Monda: "Monda", sans-serif;
+
+  /* ========= Box shadow =========*/
+  --shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.1);
+
+  /* ========= Border Redius =========*/
+  --border-radius: 10px;
+  --border-radius-2: 6px;
+}
+/* ========= Base =========*/
+
+/* Responsive typography */
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+}
+
+body {
+  background-color: var(--body-color);
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* ========= FResuable css classes =========*/
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  margin-left: 0.875rem;
+  font-weight: var(--font-bold);
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 1px rgba(0 0 0 / 0%);
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--first-color);
+  font-weight: var(--font-bold);
+}

@@ -1,0 +1,297 @@
+.my__details,
+.skills,
+.education__detail,
+.tool__used {
+  margin: 15px 0;
+}
+
+.my__details .flex__details {
+  display: flex;
+  margin: 15px 0;
+  color: var(--title-color);
+  font-weight: 400;
+  font-family: var(--font-family-Monda);
+  font-size: 16px;
+}
+
+.flex__details .detail__list {
+  width: 100%;
+}
+
+.flex__details .detail {
+  font-weight: var(--font-bold);
+}
+
+.flex__details .decsription {
+  font-size: 12px;
+  font-family: var(--font-family-Righteous);
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.skills .flex__skills {
+  display: flex;
+  margin: 15px 0;
+  color: var(--title-color);
+  font-weight: 400;
+  font-family: var(--font-family-Monda);
+  font-size: 16px;
+}
+
+.flex__skills .skill__level {
+  width: 100%;
+}
+
+.flex__skills .skill__level .skill {
+  font-size: 12px;
+  font-family: var(--font-family-Righteous);
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.skill__level .prograss {
+  position: relative;
+  width: 50%;
+  height: 3px;
+  border-radius: var(--border-radius);
+  background-color: var(--title-color);
+}
+
+.skill__level .prograss .line1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  border-radius: var(--border-radius);
+  background-color: var(--first-color);
+}
+
+.skill__level .prograss .line2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 3px;
+  border-radius: var(--border-radius);
+  background-color: var(--first-color);
+}
+
+.skill__level .prograss .level {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  font-size: 12px;
+  font-family: var(--font-family-Righteous);
+}
+
+.education__detail {
+  display: flex;
+  width: 100%;
+}
+
+.education__detail .circles {
+  position: relative;
+  margin-right: 80px;
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.circles .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(27%, 25%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+}
+
+.circles .line1 {
+  position: absolute;
+  top: 13px;
+  left: 28px;
+  background-color: var(--first-color);
+  width: 70px;
+  height: 3px;
+}
+
+.education__detail .circles .line2 {
+  position: absolute;
+  bottom: -40px;
+  left: 13px;
+  background-color: var(--title-color);
+  width: 3px;
+  height: 40px;
+}
+
+.education__detail:nth-of-type(3) .circles .line2 {
+  width: 0;
+  height: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.education__detail .education__list {
+  color: var(--title-color);
+  font-weight: 400;
+  font-family: var(--font-family-Monda);
+  font-size: 16px;
+}
+
+.education__detail .education__list .decsription li {
+  font-size: 12px;
+  font-family: var(--font-family-Righteous);
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.box__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.box__items .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: var(--body-color);
+  border-radius: var(--border-radius);
+  margin: 5px 8px 5px 0;
+  mix-blend-mode: luminosity;
+}
+
+.box__items .item .img__tool {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.box__items .item:hover {
+  mix-blend-mode: color-dodge;
+}
+
+@media screen and (max-width: 992px) {
+  .profile {
+    margin-top: 90px;
+    width: 100%;
+  }
+  .main-content {
+    margin-top: 10px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .skills .flex__skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill__level {
+    margin: 15px 0;
+  }
+
+  .education__detail .circles {
+    margin-right: 40px;
+  }
+
+  .circles .line1 {
+    width: 30px;
+  }
+  .education__detail .education__list .year {
+    font-size: 14px;
+  }
+  .education__detail .education__list .decsription li {
+    font-size: 10px;
+    font-family: var(--font-family-Righteous);
+    list-style: disc;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .education__detail .circles {
+    margin-right: 30px;
+  }
+
+  .circles .line1 {
+    width: 20px;
+  }
+  .education__detail .education__list .decsription li {
+    font-size: 8px;
+    font-family: var(--font-family-Righteous);
+    list-style: disc;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .my__details .flex__details {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .education__detail .education__list .year {
+    font-size: 10px;
+  }
+  .education__detail .circles {
+    margin-right: 30px;
+  }
+
+  .circles {
+    display: none;
+  }
+  .skill__level .prograss {
+    position: relative;
+    width: 10 0%;
+    height: 3px;
+    border-radius: var(--border-radius);
+    background-color: var(--title-color);
+  }
+  .education__detail .education__list .decsription li {
+    font-size: 8px;
+    font-family: var(--font-family-Righteous);
+    list-style: disc;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .my__details .flex__details {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .education__detail .education__list .year {
+    font-size: 14px;
+  }
+  .education__detail .circles {
+    margin-right: 20px;
+  }
+  .circles {
+    display: none;
+  }
+
+  .education__detail .education__list .decsription li {
+    font-size: 12px;
+  }
+}
