@@ -8,6 +8,7 @@
 .project__items {
   border-radius: 10px;
   padding: 10px;
+  position: relative;
 }
 
 .project__demo .project__items .img__project {
@@ -24,11 +25,10 @@
 }
 
 .project__items .icon_link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  background-color: red;
 }
 
 @media screen and (max-width: 1024px) {
