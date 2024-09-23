@@ -73,6 +73,8 @@ const Contact = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  const currentYear = new Date().getFullYear();
+
   return <div className="container">
       <div className="flex-items">
         
@@ -194,16 +196,16 @@ const Contact = () => {
             <li className="small__menu__item"><img src={Message__icon} alt="" /><Link style={{ color: 'var(--title-color)' }} to="/">Contact</Link></li>
           </ul>
           <hr />
-          <div className="social__links">
-            <a href="#" className='blank__link'><img src={Facebook} alt="" className="link" /></a>
-            <a href="#" className='blank__link'><img src={Instagram} alt="" className="link" /></a>
-            <a href="#" className='blank__link'><img src={Youtube} alt="" className="link" /></a>
-            <a href="#" className='blank__link'><img src={X} alt="" className="link" /></a>
-          </div>
+           <div className="sidebar__link">
+              <a href="https://www.facebook.com/ankea.raa.zifusukada?mibextid=LQQJ4d" className="link">FB</a>
+              <a href="https://www.youtube.com/@HoutankearA" className="link">YT</a>
+              <a href="#" className="link">IG</a>
+              <a href="#" className="link">X</a>
+            </div>
         </div>
       </div>
       <div className="footer">
-        <p>Copyright: © 2024 <span>H.A.</span> All Rights Reserve</p>
+        <p>Copyright: © {currentYear} <span>H.A.</span> All Rights Reserve</p>
         <a href="#"> <img src={Up__icon} alt="" /></a>
       </div>
     </div>;

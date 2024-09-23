@@ -27,9 +27,9 @@ const Profile = () => {
 
           <p className="dec">Specializing in strategy, improving design maturity & design systems.</p>  
           <div className="links">
-            <a href="#" className='blank__link'><img src={Facebook} alt="" className="link" /></a>
+            <a href="https://www.facebook.com/ankea.raa.zifusukada?mibextid=LQQJ4d" className='blank__link'><img src={Facebook} alt="" className="link" /></a>
             <a href="#" className='blank__link'><img src={Instagram} alt="" className="link" /></a>
-            <a href="#" className='blank__link'><img src={Youtube} alt="" className="link" /></a>
+            <a href="https://www.youtube.com/@HoutankearA" className='blank__link'><img src={Youtube} alt="" className="link" /></a>
             <a href="#" className='blank__link'><img src={X} alt="" className="link" /></a>
           </div>
         </div>

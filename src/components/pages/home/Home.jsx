@@ -45,7 +45,7 @@ const Home = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+  const currentYear = new Date().getFullYear();
   return (
     <div className="container">
       <div className="flex-items">
@@ -108,8 +108,8 @@ const Home = () => {
               <li className="sidebar__menu__item"><Link style={{ color: 'var(--title-color)' }} to="/contact"><img src={Message__icon} alt="" /></Link></li>
             </div>
             <div className="sidebar__link">
-              <a href="#" className="link">FB</a>
-              <a href="#" className="link">TY</a>
+              <a href="https://www.facebook.com/ankea.raa.zifusukada?mibextid=LQQJ4d" className="link">FB</a>
+              <a href="https://www.youtube.com/@HoutankearA" className="link">YT</a>
               <a href="#" className="link">IG</a>
               <a href="#" className="link">X</a>
             </div>
@@ -139,7 +139,7 @@ const Home = () => {
         </div>
       </div>
       <div className="footer">
-        <p>Copyright: © 2024 <span>H.A.</span> All Rights Reserve</p>
+        <p>Copyright: © {currentYear} <span>H.A.</span> All Rights Reserve</p>
         <a href="#"> <img src={Up__icon} alt="" /></a>
       </div>
     </div>
