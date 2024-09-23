@@ -22,7 +22,7 @@ const Portfolio = () => {
   const [isSmallMenuVisible, setSmallMenuVisible] = useState(false);
   const [isMenuFixed, setIsMenuFixed] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(3);
+  const [postsPerPage] = useState(6);
 
   const toggleMenu = () => {
     setSmallMenuVisible(!isSmallMenuVisible);
