@@ -25,9 +25,10 @@
 }
 
 .project__items .icon_link {
+  position: absolute;
   top: 0;
   left: 0;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
   background-color: red;
 }
 
