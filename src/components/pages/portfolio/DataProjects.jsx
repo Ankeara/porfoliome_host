@@ -29,6 +29,11 @@ import Project28 from '../../../assets/mockup/28.png';
 import Project29 from '../../../assets/mockup/29.png';
 import Project30 from '../../../assets/mockup/30.png';
 import Project31 from '../../../assets/mockup/31.png';
+import Project32 from '../../../assets/mockup/32.png';
+import Project33 from '../../../assets/mockup/33.png';
+import Project34 from '../../../assets/mockup/34.png';
+import Project35 from '../../../assets/mockup/35.png';
+import Project36 from '../../../assets/mockup/36.png';
 
 const DataProjects = [
   {
@@ -37,6 +42,7 @@ const DataProjects = [
     title: "--- Dark Shopping",
     github: "#",
     figma: "https://www.figma.com/design/S9lA7QSKhheb17NgB5UB8J/Fashion-Store?m=dev&t=17zxAoN5T3qJvSil-1",
+    website: "#",
   },
   {
     id: 2,
@@ -44,6 +50,7 @@ const DataProjects = [
     title: "--- Fast Food",
     github: "#",
     figma: "https://www.figma.com/design/LnYOImVLnAF2Hx8NLLRkKQ/Hungry-Leap?m=dev&t=17zxAoN5T3qJvSil-1",
+    website: "#",
   },
   {
     id: 3,
@@ -51,6 +58,7 @@ const DataProjects = [
     title: "--- Skincare Shop",
     github: "#",
     figma: "https://www.figma.com/design/nrzeLQ6EX8238gSF3Of0Bh/Skincare-App?m=dev&t=17zxAoN5T3qJvSil-1",
+    website: "#",
 
   },
   {
@@ -59,6 +67,7 @@ const DataProjects = [
     title: "--- SpaceX Univers",
     github: "#",
     figma: "https://www.figma.com/design/ghy2ZOQKsyKt82GLn0Nnfl/Space-App?m=dev&t=qv3kFc7B0xt3cl0G-1",
+    website: "#",
 
   },
   {
@@ -67,6 +76,7 @@ const DataProjects = [
     title: "--- Trending Alert",
     github: "#",
     figma: "https://www.figma.com/design/DKqvkUustb005aWQnXRYf8/Trend-Alter?node-id=0-1&m=dev&t=qv3kFc7B0xt3cl0G-1",
+    website: "#",
 
   },
   {
@@ -75,6 +85,7 @@ const DataProjects = [
     title: "--- Cources Active",
     github: "#",
     figma: "https://www.figma.com/design/0ZfcrxYp1adCkvmu9kHOOG/Course-Activity?m=dev&t=qv3kFc7B0xt3cl0G-1",
+    website: "#",
 
   },
   {
@@ -83,6 +94,7 @@ const DataProjects = [
     title: "--- Sivance",
     github: "#",
     figma: "https://www.figma.com/design/M0Uy31JV2jFoEzzgg8nvWr/Sivance?m=dev&t=qv3kFc7B0xt3cl0G-1",
+    website: "#",
   },
   {
     id: 8,
@@ -90,6 +102,7 @@ const DataProjects = [
     title: "--- E-Learning App",
     github: "https://github.com/Ankeara/EducationApp_flutter/tree/my-educationapp",
     figma: "#",
+    website: "#",
   },
   {
     id: 9,
@@ -97,6 +110,7 @@ const DataProjects = [
     title: "--- Grocery App",
     github: "https://github.com/Ankeara/grocery_app",
     figma: "#",
+    website: "#",
   },
   {
     id: 10,
@@ -104,6 +118,7 @@ const DataProjects = [
     title: "--- IShop App",
     github: "https://github.com/Ankeara/homework2",
     figma: "#",
+    website: "#",
   },
   {
     id: 11,
@@ -111,6 +126,7 @@ const DataProjects = [
     title: "--- Helth Care App",
     github: "https://github.com/Ankeara/homework3",
     figma: "#",
+    website: "#",
   },
   {
     id: 12,
@@ -118,6 +134,7 @@ const DataProjects = [
     title: "--- Dictionary App",
     github: "https://github.com/Ankeara/EducationApp_flutter/tree/my-educationapp",
     figma: "#",
+    website: "#",
   },
   {
     id: 13,
@@ -125,6 +142,7 @@ const DataProjects = [
     title: "--- Blog Template",
     github: "https://github.com/Ankeara/litcoding_blog",
     figma: "#",
+    website: "#",
   },
   {
     id:14,
@@ -132,6 +150,7 @@ const DataProjects = [
     title: "--- Job Portal",
     github: "https://github.com/Ankeara/jobportal/tree/my-new-branch",
     figma: "#",
+    website: "#",
   },
   {
     id:15,
@@ -139,6 +158,7 @@ const DataProjects = [
     title: "--- Dashboard Template",
     github: "https://github.com/Ankeara/litcoding_blog",
     figma: "#",
+    website: "#",
   },
    {
     id:16,
@@ -146,6 +166,7 @@ const DataProjects = [
     title: "--- Portfolio About Me",
     github: "https://github.com/Ankeara/portfolio_me",
     figma: "#",
+    website: "#",
   },
   {
     id:17,
@@ -153,6 +174,7 @@ const DataProjects = [
     title: "--- CRUD Laravel Test",
     github: "https://github.com/Ankeara/school_management_project/tree/system-school",
     figma: "#",
+    website: "#",
   },
   {
     id: 18,
@@ -160,6 +182,7 @@ const DataProjects = [
     title: "--- Rental System",
     github: "#",
     figma: "#",
+    website: "#",
   },
   {
     id:19,
@@ -167,6 +190,7 @@ const DataProjects = [
     title: "--- CRUD Image Larave",
     github: "https://github.com/Ankeara/CRUD_LARAVEL/tree/my-crud-branch",
     figma: "#",
+    website: "#",
   },
   {
     id:20,
@@ -174,6 +198,7 @@ const DataProjects = [
     title: "--- Dashboard Login / Logout",
     github: "https://github.com/Ankeara/LoginLaravel/tree/login-laravel",
     figma: "#",
+    website: "#",
   },
    {
     id:21,
@@ -181,6 +206,7 @@ const DataProjects = [
     title: "--- Random Password Generator",
     github: "https://github.com/Ankeara/Password-Generator",
     figma: "#",
+    website: "#",
   },
   {
     id:22,
@@ -188,6 +214,7 @@ const DataProjects = [
     title: "--- Age Calculator",
     github: "https://github.com/Ankeara/Age-Calculator",
     figma: "#",
+    website: "#",
   },
   {
     id:23,
@@ -195,6 +222,7 @@ const DataProjects = [
     title: "--- Exchange Money",
     github: "https://github.com/Ankeara/Currency-Converter-App-in-JavaScript",
     figma: "#",
+    website: "#",
   },
   {
     id: 24,
@@ -202,6 +230,7 @@ const DataProjects = [
     title: "--- BMI Calculator",
     github: "https://github.com/Ankeara/Weight-Converter",
     figma: "#",
+    website: "#",
   },
   {
     id:25,
@@ -209,6 +238,7 @@ const DataProjects = [
     title: "--- Generate QR Code",
     github: "https://github.com/Ankeara/QR-Code-Generator",
     figma: "#",
+    website: "#",
   },
   {
     id:26,
@@ -216,6 +246,7 @@ const DataProjects = [
     title: "--- Random Emoji Generator",
     github: "https://github.com/Ankeara/Random-Emoji-Generator",
     figma: "#",
+    website: "#",
   },
   {
     id:27,
@@ -223,6 +254,7 @@ const DataProjects = [
     title: "--- Exchange Money App",
     github: "https://github.com/Ankeara/currency_converter_app_flutter/tree/my-currencyapp",
     figma: "#",
+    website: "#",
   },
   {
     id:28,
@@ -230,6 +262,7 @@ const DataProjects = [
     title: "--- Library System",
     github: "https://github.com/Ankeara/Library_system/tree/my-library-system",
     figma: "#",
+    website: "#",
   },
   {
     id: 29,
@@ -237,20 +270,62 @@ const DataProjects = [
     title: "--- Food Hub Website",
     github: "https://github.com/Ankeara/FoodHub.github.io",
     figma: "#",
+    website: "#",
   },
   {
     id:30,
     image: Project30,
-    title: "--- Calculator In DBMS",
+    title: "--- Organic Vagetables",
     github: "#",
-    figma: "#",
+    figma: "https://www.figma.com/design/qGZBjOTppHdPU0GuEU8Lb7/Organic-Vagetables?node-id=0-1&m=dev&t=hKpM7lAc3So5kI4P-1",
+    website: "#",
   },
   {
     id:31,
     image: Project31,
-    title: "--- Goodluck Phonenumber",
+    title: "--- Cut For You",
     github: "#",
+    figma: "https://www.figma.com/design/fIOvd4sfOHU3g2iKKdfXKq/CutForYou?m=dev&t=hKpM7lAc3So5kI4P-1",
+    website: "#",
+  },
+  {
+    id:32,
+    image: Project32,
+    title: "--- Fast Food Deilivery",
+    github: "#",
+    figma: "https://www.figma.com/design/ek6B7tgThLtTkXKHlTGzF0/FastFOod-delivery?m=dev&t=hKpM7lAc3So5kI4P-1",
+    website: "#",
+  },
+  {
+    id:33,
+    image: Project33,
+    title: "--- Short Cut To Use",
+    github: "https://github.com/Ankeara/shortcut",
+    figma: "https://www.figma.com/design/mN3PK7MNWxPEQHVQwbQDQq/Shortcut-to-use?m=dev&t=hKpM7lAc3So5kI4P-1",
+    website: "https://web-link-beta.vercel.app/#",
+  },
+  {
+    id:34,
+    image: Project34,
+    title: "--- ArtFT",
+    github: "#",
+    figma: "https://www.figma.com/design/GQ48CWZGKUMTUngn2ppBcs/ArtFT?m=dev&t=hKpM7lAc3So5kI4P-1",
+    website: "#",
+  },
+  {
+    id:35,
+    image: Project35,
+    title: "--- BD Tournament",
+    github: "#",
+    figma: "https://www.figma.com/design/txlsTUJiiwiqyPOf1n2ULe/BD-Tournament?m=dev&t=hKpM7lAc3So5kI4P-1",
+    website: "#",
+  },{
+    id:36,
+    image: Project36,
+    title: "--- Web Link",
+    github: "https://github.com/Ankeara/web_link",
     figma: "#",
+    website: "https://web-link-beta.vercel.app/#",
   },
 ];
 

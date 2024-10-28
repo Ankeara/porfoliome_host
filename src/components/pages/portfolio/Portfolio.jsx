@@ -75,7 +75,7 @@ const Portfolio = () => {
             <img src={Menu} alt="" />
           </div>
         </div>
-
+        
         <div className="main-content">
           <div className="main">
             <div className="bg__copy">
