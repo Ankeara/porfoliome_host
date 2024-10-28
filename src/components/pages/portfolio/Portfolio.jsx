@@ -89,7 +89,7 @@ const Portfolio = () => {
             <h1 className="title">I Make the <span>best Our Portfolio</span></h1>
             <div className="project__demo grid">
               {currentPosts.map((data) => (
-                <Projects key={data.id} image={data.image} title={data.title} figma={data.figma} github={data.github}/>
+                <Projects key={data.id} image={data.image} title={data.title} figma={data.figma} github={data.github} website={data.website}/>
               ))}
             </div>
             <Pagination
