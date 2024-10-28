@@ -19,6 +19,9 @@ import Projects from './Projects';
 import Pagination from './Pagination';
 
 const Portfolio = () => {
+  useEffect(() => {
+    document.title = "Portfolio Me -- Portfolio";
+  }, []);
   const [isSmallMenuVisible, setSmallMenuVisible] = useState(false);
   const [isMenuFixed, setIsMenuFixed] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);

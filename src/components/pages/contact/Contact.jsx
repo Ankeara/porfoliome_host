@@ -19,7 +19,9 @@ import Phone__icon from '../../../assets/icons/phone-call.png';
 import Location__icon from '../../../assets/icons/location-pin.png';
 import Swal from 'sweetalert2'
 const Contact = () => {
-
+useEffect(() => {
+    document.title = "Portfolio Me -- Contact";
+  }, []);
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);

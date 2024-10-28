@@ -18,6 +18,9 @@ import Tools from './Tools';
 import Card from './Card';
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Portfolio Me -- About";
+  }, []);
     const [isSmallMenuVisible, setSmallMenuVisible] = useState(false); // Initialize state
   const [isMenuFixed, setIsMenuFixed] = useState(false);
 

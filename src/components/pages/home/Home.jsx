@@ -19,6 +19,9 @@ import HA from '../../../assets/HA.png';
 import Profile from '../profile/Profile';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Portfolio Me -- Home";
+  }, []);
   const [isSmallMenuVisible, setSmallMenuVisible] = useState(false); // Initialize state
   const [isMenuFixed, setIsMenuFixed] = useState(false);
 
