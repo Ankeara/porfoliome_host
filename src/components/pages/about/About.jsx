@@ -215,6 +215,7 @@ const About = () => {
               <a href="https://www.youtube.com/@HoutankearA" className="link">YT</a>
               <a href="#" className="link">IG</a>
               <a href="#" className="link">X</a>
+              <a href="https://project-designe.vercel.app/" className="link">WB</a>
             </div>
           </div>
         </div>

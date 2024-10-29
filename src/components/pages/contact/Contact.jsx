@@ -177,10 +177,11 @@ useEffect(() => {
               <li className="sidebar__menu__item"><Link style={{ color: 'var(--title-color)' }} to="/contact"><img src={Message__icon} alt="" /></Link></li>
             </div>
             <div className="sidebar__link">
-              <a href="#" className="link">FB</a>
-              <a href="#" className="link">TY</a>
+              <a href="https://www.facebook.com/ankea.raa.zifusukada?mibextid=LQQJ4d" className="link">FB</a>
+              <a href="https://www.youtube.com/@HoutankearA" className="link">YT</a>
               <a href="#" className="link">IG</a>
               <a href="#" className="link">X</a>
+              <a href="https://project-designe.vercel.app/" className="link">WB</a>
             </div>
           </div>
         </div>
